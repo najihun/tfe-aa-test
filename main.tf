@@ -12,6 +12,6 @@ provider "aws" {
   region = "ap-northeast-2"
 }
 
-resource "aws_vpc" "example" {
+resource "aws_vpc" "example2" {
   cidr_block = "100.0.0.0/16"
 }

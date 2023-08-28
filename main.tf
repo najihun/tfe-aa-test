@@ -16,6 +16,6 @@ resource "aws_vpc" "example2" {
   cidr_block = "100.0.0.0/16"
 }
 
-resource "aws_vpc" "example12" {
+resource "aws_vpc" "example13" {
   cidr_block = "200.0.0.0/16"
 }

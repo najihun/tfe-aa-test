@@ -24,3 +24,7 @@ resource "aws_vpc" "example15" {
   cidr_block = "192.0.0.0/16"
 }
 
+resource "aws_vpc" "example18" {
+  cidr_block = "192.0.0.0/16"
+}
+

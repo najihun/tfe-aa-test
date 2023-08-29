@@ -20,6 +20,3 @@ resource "aws_vpc" "example10" {
   cidr_block = "200.0.0.0/16"
 }
 
-resource "aws_vpc" "example11" {
-  cidr_block = "192.168.0.0/16"
-}
